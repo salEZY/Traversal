@@ -1,0 +1,25 @@
+main {
+  min-height: 84vh;
+}
+
+.start-button {
+  margin-top: 50px;
+  width: 30%;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: tomato;
+  background: #282c34;
+  border: 0;
+  outline: 0;
+  border: 5px solid tomato;
+  border-radius: 5px 10px 50px 5px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  color: #282c34;
+  background: tomato;
+  border: 5px solid #282c34;
+}
