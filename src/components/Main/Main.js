@@ -16,10 +16,18 @@ const Main = () => {
     min-height: 84vh;
     text-align: center;
   `;
+
+  const ButtonWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+  `;
+
   const Button = styled.button`
-    margin-top: 50px;
     width: 30%;
     padding: 1rem;
+    margin: 0 auto;
     font-size: 2rem;
     font-weight: bolder;
     color: tomato;
@@ -30,6 +38,12 @@ const Main = () => {
     border-radius: 5px 10px 50px 5px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+
+    ${ButtonWrapper}:hover & {
+      color: #282c34;
+      background: tomato;
+      border: 5px solid #282c34;
+    }
   `;
 
   return (
@@ -37,9 +51,11 @@ const Main = () => {
       {start ? (
         <p onClick={stopHandler}>BLOCKS</p>
       ) : (
-        <Button className="start-button" onClick={startHandler}>
-          START
-        </Button>
+        <ButtonWrapper>
+          <Button className="start-button" onClick={startHandler}>
+            START
+          </Button>
+        </ButtonWrapper>
       )}
     </Wrapper>
   );

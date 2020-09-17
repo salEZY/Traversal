@@ -12,7 +12,7 @@ function App() {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: tomato;
   `;
 
   const Footer = styled.footer`
@@ -23,7 +23,7 @@ function App() {
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: tomato;
   `;
 
   return (
