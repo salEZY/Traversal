@@ -46,7 +46,7 @@ const Main = ({ startHandler, start }) => {
       ) : (
         <ButtonWrapper>
           <Button className="start-button" onClick={startHandler}>
-            Start
+            Start!
           </Button>
         </ButtonWrapper>
       )}

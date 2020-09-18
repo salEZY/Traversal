@@ -53,7 +53,7 @@ function App() {
     <>
       <Header>
         <h1>Traversal</h1>
-        {start && <CloseButton onClick={stopHandler}>Stop</CloseButton>}
+        {start && <CloseButton onClick={stopHandler}>Stop!</CloseButton>}
       </Header>
       <Main startHandler={startHandler} start={start} />
       <Footer>
