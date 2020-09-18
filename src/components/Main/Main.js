@@ -28,7 +28,7 @@ const Button = styled.button`
   outline: 0;
   border: 5px solid tomato;
   border-radius: 5px 10px 50px 5px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
   cursor: pointer;
 
   ${ButtonWrapper}:hover & {
